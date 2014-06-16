@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="" />
+		<link rel="stylesheet" type="text/css" href="css/menu_style.css" />
+		<title>Coherent UI FPS Sample</title>
+		<style>
+			.title 
+			{
+				width: 95%;
+				margin: 8% auto 5em;
+				max-width: 861px;
+			}
+		</style>
+
+
+    </head>
+    <body onresize="adjustObjectSize()">
+
+        <div id = "leftMenu" class="Menu">
+	    	<img id = "rightPic" src="img/menu-button-default.png"/>
+        </div>
+
+        <div id = "rightMenu"  class="Menu">
+	    	<img id = "leftPic" src="img/menu-button-default.png"/>
+        </div>
+
+        <script type="text/javascript" src="js/menu.js"></script>
+        <script type="text/javascript" src="js/Elements.js"></script>
+        <script type="text/javascript">
+            init();
+        </script>
+
+        <footer>
+            Coherent Labs 2014
+        </footer>
+	</body>
+</html>
